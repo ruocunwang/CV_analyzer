@@ -59,4 +59,4 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
   e. Fitted log(V): The scan rate values mapped across the linear regression model.
   f. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
   g. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
- h. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
+  h. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
