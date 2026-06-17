@@ -51,15 +51,15 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 ### 1. [Folder]_Analysis.txt: (Data Summary)
    1. **Sweep Rates (mV/s):** The rate at which voltage is scanned during cyclic voltammetry.
    2. **Voltage Window (V):** The operational potential window.
-   3. Cathodic Specific Capacity: integrated current with respect to time in the cathodic cycle in the unit of mAh/g.
-   4. Anodic Specific Capacity: Integrated current with respect to time in the anodic cycle in units of mAh/g.
-   5. Cathodic Specific Capacitance: Calculated directly from capacity metrics relative to the voltage window in units of F/g.
-   6. Anodic Specific Capacitance: Calculated directly from capacity metrics relative to the voltage window in units of F/g.
-   7. Coulombic Efficiency: The ratio of anodic to cathodic capacity.
-   8. Cathodic Electron Transfer Data: The fractional number of electrons transferred during the cathodic process (requires Molecular Weight input).
-   9.  Anodic Electron Transfer Data: The fractional number of electrons transferred during the anodic process (requires Molecular Weight input).
-   10.  Cathodic Rate Capability: Normalized performance retention relative to the maximum observed cathodic capacity.
-   11.  Anodic Rate Capability: Normalized performance retention relative to the maximum observed anodic capacity.
+   3. **Cathodic Specific Capacity (mAh/g):** Integrated cathodic current with respect to time normalized by the active mass.
+   4. **Anodic Specific Capacity (mAh/g):** Integrated anodic current with respect to time normalized by the active mass.
+   5. **Cathodic Specific Capacitance (F/g):** Cathodic specific capacity divided by the voltage window.
+   6. **Anodic Specific Capacitance (F/g):** Anodic specific capacity divided by the voltage window.
+   7. **Coulombic Efficiency (%):** The ratio of anodic to cathodic capacity.
+   8. **Cathodic Electron Transfer:** The fractional number of electrons transferred during the cathodic process calculated using Faraday's law of electrolysis (requires Molecular Weight input).
+   9. **Anodic Electron Transfer:** The fractional number of electrons transferred during the anodic process calculated using Faraday's law of electrolysis (requires Molecular Weight input).
+   10. **Cathodic Rate Capability:** Normalized performance retention relative to the maximum cathodic capacity.
+   11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
