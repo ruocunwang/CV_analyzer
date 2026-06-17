@@ -69,11 +69,11 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
-   1. Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
-   2. Outputs calculated b-values as slopes and R^2 fit values to differentiate between diffusion-controlled (b = 0.5) and surface-controlled (b = 1.0) processes.
-   3. log(v): The logarithm of the experimental scan rate.
-   4. log(I): The logarithm of the experimental peak current.
-   5. Fitted log(V): The scan rate values mapped across the linear regression model.
-   6. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
-   7. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
-   8. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
+   - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
+   - Outputs calculated b-values as slopes and R^2 fit values to differentiate between diffusion-controlled (b = 0.5) and surface-controlled (b = 1.0) processes.
+   1. log(v): The logarithm of the experimental scan rate.
+   2. log(I): The logarithm of the experimental peak current.
+   3. Fitted log(V): The scan rate values mapped across the linear regression model.
+   4. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
+   5. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
+   6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
