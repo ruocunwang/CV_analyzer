@@ -1,0 +1,9 @@
+    Log(v)	            Log(I)	           fitted Log(v)	       fitted Log(I)	             b value	      R square
+					
+   0.00000	            6.55573	                  0.00000	              6.59779	              0.90590	               0.99925
+   0.69315	            7.21417	                  4.60517	             10.76960	                  NaN	                   NaN
+   1.60944	            8.07817	                      NaN	                  NaN	                  NaN	                   NaN
+   2.30259	            8.72258	                      NaN	                  NaN	                  NaN	                   NaN
+   2.99573	            9.35838	                      NaN	                  NaN	                  NaN	                   NaN
+   3.91202	           10.15173	                      NaN	                  NaN	                  NaN	                   NaN
+   4.60517	           10.70511	                      NaN	                  NaN	                  NaN	                   NaN
