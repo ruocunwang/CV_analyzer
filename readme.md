@@ -45,7 +45,7 @@ This is a data processing tool designed to automate the analysis of CV rate data
    4. Molecular Weight: Press Enter to skip, or provide it if wanted.
 
 
-## What it does
+## Results description
 The script creates a new directory called [Your_Folder_Name]_results in the same directory as your source data. It has .txt files inside it that are made for easy plotting in software like OriginLab, Prism, or Excel.
 
 ### 1. [Folder]_Analysis.txt: (Data Summary)
