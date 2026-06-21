@@ -24,7 +24,7 @@ This is a data processing tool designed to automate the analysis of CV rate data
 1. Open your command-line interface (ie. PowerShell/GitBash on Windows or Terminal on Mac).
 2. Find the directory where you want to put the repo (cd) command:
    ```sh
-   cd “path\to\your\code\folder”
+   cd <path\to\your\code\folder>
    ```
 3. Clone the repo to the directory
    ```sh
@@ -39,7 +39,7 @@ This is a data processing tool designed to automate the analysis of CV rate data
    Python CV_analyzer.py
    ```
 7. Follow the prompts:
-   1. Folder Path: The location of your .mpt file
+   1. Folder Path: The location of your .mpt file. Don't include the quotation mark.
    2. Cycle number: The cycle number you want to analyze.
    3. Active mass: The mass of your electrochemically active material.
    4. Molecular Weight: Press Enter to skip, or provide it if wanted.
