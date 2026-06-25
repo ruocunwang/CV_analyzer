@@ -64,9 +64,26 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
    - Append isolated peak anodic currents and their corresponding potential are also located in the last two columns of the dataset.
+   - Example Visualization
+     
+<img width="600" height="400" alt="Graph12" src="https://github.com/user-attachments/assets/0ab17e15-a537-4de9-bbf8-60e5f4c25f06" />
 
-### 3. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
+### 3a. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
+   - Example Visualization
+     
+     <img width="600" height="400" alt="Graph8" src="https://github.com/user-attachments/assets/b059d505-7cac-4fba-9e1e-39cf76d72c43" />
+### 3b. [Folder]_E_C.txt: Additional Capacity Analysis
+  - Calculates the material's specific capacity measured in mAh/g.
+  - Example Visualization
+    
+    <img width="600" height="400" alt="Graph7" src="https://github.com/user-attachments/assets/8d77ab40-8ac3-472f-ae1f-aa53066244ce" />
+### 3c. [Folder]_E_C.txt: Coulombic Efficiency
+  - Tracks the efficiency percentage of the charge-discharge cycles across different scan rates.
+  - Example Visualization
+    
+<img width="600" height="400" alt="Graph9" src="https://github.com/user-attachments/assets/0a6c8275-bcd0-4c45-b02b-a074be9d043d" />
+
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
    - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
@@ -77,3 +94,6 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    4. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
    5. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
    6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
+   - Example Visualization
+     <img width="600" height="400" alt="Graph14" src="https://github.com/user-attachments/assets/db3bdb06-9185-473e-87a8-e4597de2b422" />
+
