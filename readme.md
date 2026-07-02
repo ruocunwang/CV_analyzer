@@ -50,16 +50,27 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 
 ### Example Visualizations of Graphs 
 <img width="1050" height="900" alt="Graph12" src="https://github.com/user-attachments/assets/bf766bc8-a7fb-4af1-920b-6d21dd98fccc" />
+
 <img width="1050" height="900" alt="Graph12" src="https://github.com/user-attachments/assets/08a46604-8c9c-4f97-bae3-a1d78d966895" />
+
 <img width="1050" height="900" alt="Graph6" src="https://github.com/user-attachments/assets/8c49c4f9-fd3c-4057-bf1c-554ff8a3a442" />
+
 <img width="1050" height="900" alt="Graph5" src="https://github.com/user-attachments/assets/50751e4a-333b-42c2-bbe8-747fc43030ae" />
+
 <img width="1050" height="900" alt="Graph4" src="https://github.com/user-attachments/assets/d7ecaeee-eaa3-41d6-84db-aa1cea7f8d2a" />
+
 <img width="1050" height="900" alt="Graph3" src="https://github.com/user-attachments/assets/c55903b8-8670-4cc1-98ea-666445e5c010" />
+
 <img width="1050" height="900" alt="Graph2" src="https://github.com/user-attachments/assets/09cd8283-b573-4392-8e6a-70b90787a2c2" />
+
 <img width="1050" height="900" alt="Graph9" src="https://github.com/user-attachments/assets/f49952ca-c55a-4961-abca-d5d71680cdf3" />
+
 <img width="1050" height="900" alt="Graph8" src="https://github.com/user-attachments/assets/eda9595e-a972-4b98-8bbe-2d3641041862" />
+
 <img width="1050" height="900" alt="Graph7" src="https://github.com/user-attachments/assets/b44c2ca0-b85a-4742-82ab-672a88f7b08a" />
+
 <img width="1050" height="900" alt="Graph1" src="https://github.com/user-attachments/assets/662ce756-7cd2-46f5-91c8-55298d880951" />
+
 <img width="1050" height="900" alt="Graph14" src="https://github.com/user-attachments/assets/12212f20-d06d-4d82-99a0-e999fd2bdc91" />
 
 
