@@ -56,7 +56,7 @@ A sample dataset is included in this repository for users who want to practice u
 The sample dataset comes from Ti₃C₂Tₓ, a thin film electrode (Tₓ = –O, –OH, –Cl, and –F) in 5 M H₂SO₄ electrolyte.
 
 Active mass = 0.041 mg
-Molecular Weight = 204.65 g/mol
+<br>Molecular Weight = 204.65 g/mol
 Refrence Electrode = Hg/Hg₂SO₄ / K2SO4 (sat'd)
 Counter Electrode: Activated Carbon
 Environment: Room temperature
