@@ -48,6 +48,21 @@ This is a data processing tool designed to automate the analysis of CV rate data
 ## Results description
 The script creates a new directory called [Your_Folder_Name]_results in the same directory as your source data. It has .txt files inside it that are made for easy plotting in software like OriginLab, Prism, or Excel.
 
+### Example Visualizations of Graphs 
+<img width="1050" height="900" alt="Graph12" src="https://github.com/user-attachments/assets/bf766bc8-a7fb-4af1-920b-6d21dd98fccc" />
+<img width="1050" height="900" alt="Graph12" src="https://github.com/user-attachments/assets/08a46604-8c9c-4f97-bae3-a1d78d966895" />
+<img width="1050" height="900" alt="Graph6" src="https://github.com/user-attachments/assets/8c49c4f9-fd3c-4057-bf1c-554ff8a3a442" />
+<img width="1050" height="900" alt="Graph5" src="https://github.com/user-attachments/assets/50751e4a-333b-42c2-bbe8-747fc43030ae" />
+<img width="1050" height="900" alt="Graph4" src="https://github.com/user-attachments/assets/d7ecaeee-eaa3-41d6-84db-aa1cea7f8d2a" />
+<img width="1050" height="900" alt="Graph3" src="https://github.com/user-attachments/assets/c55903b8-8670-4cc1-98ea-666445e5c010" />
+<img width="1050" height="900" alt="Graph2" src="https://github.com/user-attachments/assets/09cd8283-b573-4392-8e6a-70b90787a2c2" />
+<img width="1050" height="900" alt="Graph9" src="https://github.com/user-attachments/assets/f49952ca-c55a-4961-abca-d5d71680cdf3" />
+<img width="1050" height="900" alt="Graph8" src="https://github.com/user-attachments/assets/eda9595e-a972-4b98-8bbe-2d3641041862" />
+<img width="1050" height="900" alt="Graph7" src="https://github.com/user-attachments/assets/b44c2ca0-b85a-4742-82ab-672a88f7b08a" />
+<img width="1050" height="900" alt="Graph1" src="https://github.com/user-attachments/assets/662ce756-7cd2-46f5-91c8-55298d880951" />
+<img width="1050" height="900" alt="Graph14" src="https://github.com/user-attachments/assets/12212f20-d06d-4d82-99a0-e999fd2bdc91" />
+
+
 ### 1. [Folder]_Analysis.txt: (Data Summary)
    1. **Sweep Rates (mV/s):** The rate at which voltage is scanned during cyclic voltammetry.
    2. **Voltage Window (V):** The operational potential window.
@@ -64,26 +79,21 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
    - Append isolated peak anodic currents and their corresponding potential are also located in the last two columns of the dataset.
-   - Example Visualization
-     
-<img width="600" height="400" alt="Graph12" src="https://github.com/user-attachments/assets/0ab17e15-a537-4de9-bbf8-60e5f4c25f06" />
 
 ### 3a. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
-   - Example Visualization
-     
-     <img width="600" height="400" alt="Graph8" src="https://github.com/user-attachments/assets/b059d505-7cac-4fba-9e1e-39cf76d72c43" />
+  
 ### 3b. [Folder]_E_C.txt: Additional Capacity Analysis
   - Calculates the material's specific capacity measured in mAh/g.
-  - Example Visualization
-    
-    <img width="600" height="400" alt="Graph7" src="https://github.com/user-attachments/assets/8d77ab40-8ac3-472f-ae1f-aa53066244ce" />
+
 ### 3c. [Folder]_E_C.txt: Coulombic Efficiency
   - Tracks the efficiency percentage of the charge-discharge cycles across different scan rates.
-  - Example Visualization
-    
-<img width="600" height="400" alt="Graph9" src="https://github.com/user-attachments/assets/0a6c8275-bcd0-4c45-b02b-a074be9d043d" />
 
+### 3d. [Folder]_E_C.txt: Capacitance Retention
+  - Outlines the rate capability performance by evaulating capacitance retenations as scan rates increase.
+
+### 3e. [Folder]_E_C.txt: Coulombic Efficiency
+  - Monitors the cacluated number of electrones transffered during the anodic and cathodic sweeps across diffrent scan rates.
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
    - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
@@ -94,6 +104,4 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    4. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
    5. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
    6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
-   - Example Visualization
-     <img width="600" height="400" alt="Graph14" src="https://github.com/user-attachments/assets/db3bdb06-9185-473e-87a8-e4597de2b422" />
-
+  
