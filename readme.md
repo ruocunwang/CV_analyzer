@@ -44,18 +44,15 @@ This is a data processing tool designed to automate the analysis of CV rate data
    3. Active mass: The mass of your electrochemically active material.
    4. Molecular Weight: Press Enter to skip, or provide it if wanted.
 
-### Sample Data
+## Sample Data
 A sample dataset is included in this repository for users who want to practice using the code.
 
-## Included files
+### Included files
 
-# .mpr file
-The .mpr file is the orginal Bio-Logic data format and can only be opened using EC-Lab software. Users can use this file to practice epxorting the data into an .mpt format.
+- **.mpr file:** The `.mpr` file is the original Bio-Logic data format and can only be opened using EC-Lab software. Users can use this file to practice exporting the data into an `.mpt` format.
+- **.mpt file:** The `.mpt` file is the text-based format usable by `CV_analyzer.py` and can be analyzed directly using the code. Users who do not have access to EC-Lab software can use the `.mpt` file to practice using the code.
 
-# .mpt file
-The .mpt file is the text-based format ussable by CV_analyzer.py and can be analyzed directly using the code. users who do not have acces to EC-Lab software can use the .mpt file to practice using the code.
-
-## Sample Experimntal Parametes
+### Sample Experimntal Parametes
 The sample dataset comes from Ti₃C₂Tₓ, a thin film electrode (Tₓ = –O, –OH, –Cl, and –F) in 5 M H₂SO₄ electrolyte.
 
 Active mass = 0.041 mg
