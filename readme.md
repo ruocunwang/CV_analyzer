@@ -53,28 +53,6 @@ Then, your analysis results will be placed in a new folder named "CV_Data_Result
 
 All generated analysis files are stored inside this new results folder.
 
-## Sample Data
-A sample dataset is included in this repository for users who want to practice using the code.
-
-### Included files
-
-- **.mpr file:** The `.mpr` file is the original Bio-Logic data format and can only be opened using EC-Lab software. Users can use this file to practice exporting the data into an `.mpt` format.
-- **.mpt file:** The `.mpt` file is the text-based format usable by `CV_analyzer.py` and can be analyzed directly using the code. Users who do not have access to EC-Lab software can use the `.mpt` file to practice using the code.
-
-### Sample Experimental Parameters
-The sample dataset comes from Ti₃C₂Tₓ, a thin film electrode (Tₓ = –O, –OH, –Cl, and –F) in 5 M H₂SO₄ electrolyte.
-
-<br>Active mass = 0.041 mg
-<br>Molecular Weight = 204.65 g/mol
-<br>Reference Electrode = Hg/Hg₂SO₄ / K2SO4 (sat'd)
-<br>Counter Electrode: Activated Carbon
-<br>Environment: Room temperature
-<br>Initial state: -378.7 mV vs Hg/Hg₂SO₄
-
-<br>When using the sample dataset enter:
-<br>Active Mass: 0.041
-<br>Molecular Weight = 204.65
-
 ## Results description
 The script creates a new directory called [Your_Folder_Name]_results in the same directory as your source data. It has .txt files inside it that are made for easy plotting in software like OriginLab, Prism, or Excel.
 
@@ -107,3 +85,25 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    4. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
    5. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
    6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
+
+## Sample Data
+A sample dataset is included in this repository for users who want to practice using the code.
+
+### Included files
+
+- **.mpr file:** The `.mpr` file is the original Bio-Logic data format and can only be opened using EC-Lab software. Users can use this file to practice exporting the data into an `.mpt` format.
+- **.mpt file:** The `.mpt` file is the text-based format usable by `CV_analyzer.py` and can be analyzed directly using the code. Users who do not have access to EC-Lab software can use the `.mpt` file to practice using the code.
+
+### Sample Experimental Parameters
+The sample dataset comes from Ti₃C₂Tₓ, a thin film electrode (Tₓ = –O, –OH, –Cl, and –F) in 5 M H₂SO₄ electrolyte.
+
+<br>Active mass = 0.041 mg
+<br>Molecular Weight = 204.65 g/mol
+<br>Reference Electrode = Hg/Hg₂SO₄ / K2SO4 (sat'd)
+<br>Counter Electrode: Activated Carbon
+<br>Environment: Room temperature
+<br>Initial state: -378.7 mV vs Hg/Hg₂SO₄
+
+<br>When using the sample dataset enter:
+<br>Active Mass: 0.041
+<br>Molecular Weight = 204.65
