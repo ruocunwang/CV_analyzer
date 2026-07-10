@@ -48,38 +48,6 @@ This is a data processing tool designed to automate the analysis of CV rate data
 ## Results description
 The script creates a new directory called [Your_Folder_Name]_results in the same directory as your source data. It has .txt files inside it that are made for easy plotting in software like OriginLab, Prism, or Excel.
 
-### Example Visualizations of Graphs 
-
-1. Rate Capability in Anodic
-<img width="1050" height="900" alt="Graph6" src="https://github.com/user-attachments/assets/8c49c4f9-fd3c-4057-bf1c-554ff8a3a442" />
-
-2. Rate Capability in Cathodic
-<img width="1050" height="900" alt="Graph5" src="https://github.com/user-attachments/assets/50751e4a-333b-42c2-bbe8-747fc43030ae" />
-
-3. Columbic Effciency 
-<img width="1050" height="900" alt="Graph4" src="https://github.com/user-attachments/assets/d7ecaeee-eaa3-41d6-84db-aa1cea7f8d2a" />
-
-4. Anodic Specific Capacitance 
-<img width="1050" height="900" alt="Graph3" src="https://github.com/user-attachments/assets/c55903b8-8670-4cc1-98ea-666445e5c010" />
-
-5. Anodic Specfic Capacity
-<img width="1050" height="900" alt="Graph2" src="https://github.com/user-attachments/assets/09cd8283-b573-4392-8e6a-70b90787a2c2" />
-
-6. Current vs. Potential
-<img width="1050" height="900" alt="Graph9" src="https://github.com/user-attachments/assets/fe4c2dcd-0fb4-4220-9249-8c899e03379c" />
-
-7. Anodic Electron Tansfer
-<img width="1050" height="900" alt="Graph8" src="https://github.com/user-attachments/assets/eda9595e-a972-4b98-8bbe-2d3641041862" />
-
-8. Cathodic Electron Transfer
-<img width="1050" height="900" alt="Graph7" src="https://github.com/user-attachments/assets/b44c2ca0-b85a-4742-82ab-672a88f7b08a" />
-
-9. Capacitance vs. Potential
-<img width="1050" height="900" alt="Graph1" src="https://github.com/user-attachments/assets/4b8004ae-706e-4cde-b448-6ee510e9de3c" />
-
-10. Log(I) vs. Log(v)
-<img width="1050" height="900" alt="Graph14" src="https://github.com/user-attachments/assets/12212f20-d06d-4d82-99a0-e999fd2bdc91" />
-
 
 ### 1. [Folder]_Analysis.txt: (Data Summary)
    1. **Sweep Rates (mV/s):** The rate at which voltage is scanned during cyclic voltammetry.
