@@ -93,25 +93,27 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    9. **Anodic Electron Transfer:** The fractional number of electrons transferred during the anodic process calculated using Faraday's law of electrolysis (requires Molecular Weight input).
    10. **Cathodic Rate Capability:** Normalized performance retention relative to the maximum cathodic capacity.
    11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
+   12. **Additional Capacity Analysis** Calculates the material's specific capacity measured in mAh/g.
+   13. **Coulombic Efficiency** Tracks the efficiency percentage of the charge-discharge cycles across different scan rates.
+   14. **Capacitance Retention** Outlines the rate capability performance by evaulating capacitance retenations as scan rates increase.
+   15. **Coulombic Efficiency** Monitors the cacluated number of electrones transffered during the anodic and cathodic sweeps across diffrent scan rates.
+
+Example Visualizations
+<img width="556" height="308" alt="Screenshot 2026-07-10 111252" src="https://github.com/user-attachments/assets/81f7e7b8-4b5d-4ea9-9ef8-57fad38bae3b" />
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
    - Append isolated peak anodic currents and their corresponding potential are also located in the last two columns of the dataset.
 
-### 3a. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
+Example Visualization
+<img width="561" height="314" alt="Screenshot 2026-07-10 110417" src="https://github.com/user-attachments/assets/5901243b-0707-4e8f-a46e-49a774afa078" />
+
+### 3. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
-  
-### 3b. [Folder]_E_C.txt: Additional Capacity Analysis
-  - Calculates the material's specific capacity measured in mAh/g.
 
-### 3c. [Folder]_E_C.txt: Coulombic Efficiency
-  - Tracks the efficiency percentage of the charge-discharge cycles across different scan rates.
+  Example Visualization
+  <img width="557" height="314" alt="Screenshot 2026-07-10 110604" src="https://github.com/user-attachments/assets/abfb73b1-3eea-4f7a-a860-2d58e5f71b9e" />
 
-### 3d. [Folder]_E_C.txt: Capacitance Retention
-  - Outlines the rate capability performance by evaulating capacitance retenations as scan rates increase.
-
-### 3e. [Folder]_E_C.txt: Coulombic Efficiency
-  - Monitors the cacluated number of electrones transffered during the anodic and cathodic sweeps across diffrent scan rates.
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
    - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
@@ -122,4 +124,8 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    4. Fitted log(I): The predicted peak current values generated along the calculated linear fit line.
    5. b value: The calculated slope extracted from the linear regression line used to define the dominant charge storage mechanism.
    6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
+
+  Example Visualization
+  <img width="557" height="313" alt="Screenshot 2026-07-10 111404" src="https://github.com/user-attachments/assets/903538e4-27d5-4e97-a3d4-df60a423c8d2" />
+
   
