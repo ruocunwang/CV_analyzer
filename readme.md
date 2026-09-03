@@ -78,14 +78,13 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    - Append isolated peak anodic currents and their corresponding potential are also located in the last two columns of the dataset.
 
 #### Example Visualization
-<br> <img width="561" height="314" alt="Screenshot 2026-07-10 110417" src="https://github.com/user-attachments/assets/5901243b-0707-4e8f-a46e-49a774afa078" />
+<br> <img width="517" height="425" alt="Screenshot 2026-09-03 180146" src="https://github.com/user-attachments/assets/07119698-eb3a-4fe1-9dec-9ef05fca7761" />
 
 ### 3. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
 
 #### Example Visualization
-<br> <img width="557" height="314" alt="Screenshot 2026-07-10 110604" src="https://github.com/user-attachments/assets/abfb73b1-3eea-4f7a-a860-2d58e5f71b9e" />
-
+<br> <img width="518" height="446" alt="Screenshot 2026-09-03 172617" src="https://github.com/user-attachments/assets/5ff58656-1616-4b85-9d12-569c83a422d8" />
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
    - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
@@ -99,7 +98,6 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 
 #### Example Visualization
 <br> <img width="557" height="313" alt="Screenshot 2026-07-10 111404" src="https://github.com/user-attachments/assets/903538e4-27d5-4e97-a3d4-df60a423c8d2" />
-
   
 ## Sample Data
 A sample dataset is included in this repository for users who want to practice using the code.
