@@ -71,7 +71,7 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
    
 #### Example Visualizations
-<br> <img width="556" height="308" alt="Screenshot 2026-07-10 111252" src="https://github.com/user-attachments/assets/81f7e7b8-4b5d-4ea9-9ef8-57fad38bae3b" />
+<br> <img width="467" height="398" alt="image" src="https://github.com/user-attachments/assets/f61df159-03ae-4a72-99fc-48e8758ecf3e" />
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
@@ -84,7 +84,7 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
 
 #### Example Visualization
-<br> <img width="518" height="446" alt="Screenshot 2026-09-03 172617" src="https://github.com/user-attachments/assets/5ff58656-1616-4b85-9d12-569c83a422d8" />
+<br> <img width="425" height="366" alt="image" src="https://github.com/user-attachments/assets/4f8c7a73-d59d-4a54-9f33-68558776cd41" />
 
 ### 4. [Folder]_log_b.txt: (Kinetics and b-Value Analysis)
    - Gives the linear regression data needed to find charge storage kinetics using the Power Law Relationship.
