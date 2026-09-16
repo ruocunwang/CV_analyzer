@@ -71,14 +71,14 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
    
 #### Example Visualizations
-<br> <img width="467" height="398" alt="image" src="https://github.com/user-attachments/assets/f61df159-03ae-4a72-99fc-48e8758ecf3e" />
+<br> 
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
    - Append isolated peak anodic currents and their corresponding potential are also located in the last two columns of the dataset.
 
 #### Example Visualization
-<br> <img width="517" height="425" alt="Screenshot 2026-09-03 180146" src="https://github.com/user-attachments/assets/07119698-eb3a-4fe1-9dec-9ef05fca7761" />
+<br> <img width="467" height="398" alt="image" src="https://github.com/user-attachments/assets/f61df159-03ae-4a72-99fc-48e8758ecf3e" />
 
 ### 3. [Folder]_E_C.txt: (Potential vs. Specific Capacitance)
    - Calculates specific capacitance (F/g) as a function of potential for every sweep rate using C = I / (m × v), where I is current (A), m is the mass of the active material (g), and v is the scan rate (V/s).
