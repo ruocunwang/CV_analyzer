@@ -98,8 +98,6 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
 
 #### Example Visualization
 <br> <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/6b326cf7-0f33-4e4a-90ce-3d5deefecd3f" />
-
-<br> <img width="557" height="313" alt="Screenshot 2026-07-10 111404" src="https://github.com/user-attachments/assets/903538e4-27d5-4e97-a3d4-df60a423c8d2" />
   
 ## Sample Data
 A sample dataset is included in this repository for users who want to practice using the code.
