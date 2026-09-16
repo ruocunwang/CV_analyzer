@@ -97,7 +97,7 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    6. R square: The coefficient of determination indicating the quality and accuracy of the linear regression fit.
 
 #### Example Visualization
-<br> <img width="386" height="212" alt="image" src="https://github.com/user-attachments/assets/6b326cf7-0f33-4e4a-90ce-3d5deefecd3f" />
+<br> <img width="518" height="446" alt="image" src="https://github.com/user-attachments/assets/6b326cf7-0f33-4e4a-90ce-3d5deefecd3f" />
 
 <br> <img width="557" height="313" alt="Screenshot 2026-07-10 111404" src="https://github.com/user-attachments/assets/903538e4-27d5-4e97-a3d4-df60a423c8d2" />
   
