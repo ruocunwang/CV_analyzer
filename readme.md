@@ -71,7 +71,8 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
    
 #### Example Visualizations
-<br> 
+<br> <img width="450" height="400" alt="image" src="https://github.com/user-attachments/assets/a958c20b-b7ff-480d-a4a1-722e7d828729" />
+
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
    - Organize potential (V) and normalized current density (mA/g) from all analyzed sweep rates into columns, ordered from lowest to highest sweep rate (left to right).
