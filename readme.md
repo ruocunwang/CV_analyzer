@@ -71,7 +71,7 @@ The script creates a new directory called [Your_Folder_Name]_results in the same
    11. **Anodic Rate Capability:** Normalized performance retention relative to the maximum anodic capacity.
    
 #### Example Visualizations
-<br> <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/a958c20b-b7ff-480d-a4a1-722e7d828729" />
+<br> <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a958c20b-b7ff-480d-a4a1-722e7d828729" />
 
 
 ### 2. [Folder]_E_I.txt: (Potential vs. Current Density)
